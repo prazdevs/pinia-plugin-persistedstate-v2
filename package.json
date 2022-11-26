@@ -1,0 +1,31 @@
+{
+  "name": "pinia-plugin-persistedstate-v2",
+  "version": "2.4.0",
+  "packageManager": "pnpm@7.6.0",
+  "description": "Docs for pinia-persisted-state v2.",
+  "author": "prazdevs",
+  "license": "MIT",
+  "keywords": [
+    "pinia",
+    "pinia-plugin"
+  ],
+  "scripts": {
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.28",
+    "vue": "^3.2.45"
+  },
+  "volta": {
+    "node": "18.1.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
